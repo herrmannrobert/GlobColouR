@@ -1,8 +1,8 @@
 # RPackage: GlobColouR
 The package provides an R client for the ACRI server including the GlobColour data set. Main features are:
 
-• easy to set user information\n
-• examining data availability
+• easy to set user information.
+• examining data availability.
 • generating FTP file paths
 • automated download via FTP directories
   
