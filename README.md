@@ -8,4 +8,4 @@ The package provides an R client for the ACRI server including the GlobColour da
   
 Things to do:
 
-• use of multiple values (e.g. time sequences) for mandatory arguments
+5. Use of multiple values (e.g. time sequences) for mandatory arguments
