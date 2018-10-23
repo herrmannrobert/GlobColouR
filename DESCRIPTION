@@ -1,0 +1,17 @@
+Package: GlobColouR
+Title: FTP client for GlobColour products
+Version: 0.1.0
+Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
+Description: The package provides a FTP client for the ACRI server including the GlobColour data set. Main features are checking the data availability and automated downloads of previously created file directories.
+                                    The GlobColour project (globcolour.info) provides an open-source data set of satellite-based ocean color products. It is developed and maintained by ACRI-ST, France. Data output is based on single sensors (e.g. SeaWIFS, MERIS, MODIS, VIIRS, OLCIA) and also available on a merged basis. Time coverage of data is from 1997 onwards, available in daily, eight day and monthly time steps. Spatial resolution is given in 1 km (Europe only), 4 km, 25 km and 100 km. Data is supplied in NetCDF4 or PNG containing a variety of biological, atmospheric optical, ocean surface optical and ocean subsurface optical parameters.
+Depends: R (>= 3.5.1)
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Maintainer: Robert Herrmann <robertherrmann@mail.de>
+Author: Robert Herrmann
+RoxygenNote: 6.1.0
+Import: curl, 
+                              httr,
+                              png,
+                              ncdf4
