@@ -21,7 +21,8 @@ Previous registration for access on the GlobColour archive is required.
 \examples{
 \dontrun{
 
-gc_set_user("ftp_gc_DDummy", "DDummy_1234")
+gc_set_user(username = "DDummy", 
+            password = "abc1234")
 Sys.getenv(c("ACRI_FTP_USERNAME", "ACRI_FTP_PASSWORD"))
 }
 }
