@@ -163,7 +163,7 @@ gc_get_option <- function(zone, sens, binp, date, type, fext, prle, reso){
         dirlistonly = TRUE
       )
     )
-    strsplit(readBin(res$content, "character"), "\n")[[1]]
+    strsplit(gsub("\r", "", readBin(res$content, "character")), "\n")[[1]]
   }
   
   ## ProvidesAvailableOptions
