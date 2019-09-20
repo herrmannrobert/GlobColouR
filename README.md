@@ -10,3 +10,4 @@ Things to do:
 
 - use of multiple values (e.g. time sequences) for mandatory arguments in `gc_get_option`
 - change required date format in `gc_get_option` to Class Date
+- minor changes in description file
