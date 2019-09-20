@@ -9,3 +9,4 @@ GlobColouR is an R package which provides FTP access to the [`ACRI server`](http
 Things to do:
 
 - use of multiple values (e.g. time sequences) for mandatory arguments in `gc_get_option`
+- change required date format in `gc_get_option` to Class Date
